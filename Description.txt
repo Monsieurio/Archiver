@@ -1,0 +1,30 @@
+ENG
+Application is working with a static path, which is - "с:/folder".
+This folder must be created manually and one or some number of files must be placed in it.
+After that, you can launch the application.
+
+If the folder is found, the application starts working and performs the process of archiving all files that are no longer archives in the ".gz" format. 
+If the folder wasn't found, the user will see a corresponding message and will be able to choose whether to create the folder or not. 
+If the user selects "y", the application will create a path and exit, informing the user to place the files in the desired path and restart the application to archive. 
+If the user selects "n", the program will terminate.
+
+After a successful archiving process, the program starts unpacking those same files into the same folder, replacing the existing files from which the same archives were made.
+As a result, the program will make archives from one or all files that were in the path "c: / folder" and display information about it in the console.
+I could not implement the division into blocks.
+The method of launching via the console with the command GZipTest.exe compress / decompress [source file name] [target file name] was also not implemented.
+
+
+RUS
+Приложение работает со статическим путем - "с:/folder".
+Эту папку необходимо создать вручную и в неё нужно поместить один или некоторое колчество файлов.
+После этого можно запустить приложение.
+
+В случае, если папка обнаружена, приложение начинает работу и производит процесс архивации всех файлов, которые уже не являются архивами в формате ".gz"
+Если папка не была обнаружена, пользователь увидит соответствующее сообщение и будет возможность выбора, создать папку или нет. 
+При выборе "y" приложение создаст путь и завершит работу, проинформируя пользователя о помещении файлов по нужному пути и перезапуске приложения для архивации. 
+Если пользователь выберет "n" - программа завершит работу.
+
+После успешного процесса архивации программа начинает разарзивацию тех самых файлов в ту же самую папку, заменяя при этом уже имеющиеся файлы, из которых были сделаны те самые архивы.
+В результате программа сделает архивы из одного или всех файлов, которые лежали в пути "c:/folder" и выведет информацию об этом в консоли.
+Разделение на блоки мне не удалось реализовать.
+Метод запуска через консоль командой GZipTest.exe compress/decompress [имя исходного файла] [имя результирующего файла] тоже не был реализован.
